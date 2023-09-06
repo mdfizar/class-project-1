@@ -1,0 +1,39 @@
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.input-container {
+  background-color: #f9f6f6;
+  width: 500px;
+  padding: 20px;
+  margin: 0px auto;
+}
+.input-data {
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.input-data:focus {
+  background-color: aliceblue;
+}
+.login-btn {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(6, 177, 6);
+  border-radius: 7px;
+  border: none;
+  color: white;
+}
+::placeholder{
+  font-size: 17px;
+  color: rgb(208, 208, 208);
+}
+fieldset {
+  text-align: center;
+  padding: 20px;
+}

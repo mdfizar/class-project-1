@@ -1,0 +1,69 @@
+/* header css is start  */
+#mynav li {
+  display: inline-block;
+  padding: 10px 25px;
+  transition: 1s;
+}
+#mynav {
+  width: 700px;
+  height: 60px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mynav li:hover {
+  background-color: gray;
+  border-radius: 7px;
+ 
+}
+header {
+  background-color: blue;
+  padding: 2px;
+  color: white;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+}
+a {
+  color:white;
+}
+/* header css is end */
+
+/* global css start  */
+body{
+  padding-top: 65px;
+  margin: 10px;
+}
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+  width: 100px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: green;
+}
+button:active {
+  background-color: lightblue;
+}
+.div-edit {
+  width: 300px;
+  height: 320px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px rgb(211, 211, 211);
+}
+.flex-edit {
+display: grid;
+grid-template-columns: 300px 300px 300px 300px;
+column-gap: 20px;
+row-gap: 20px;
+justify-content: center;
+}
